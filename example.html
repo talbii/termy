@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="termy.css">
+    </head>
+    <body>
+        <button onclick="let e=document.getElementById('termy-editor'); e.hidden = !e.hidden"> Toggle editor </button>
+        <div class="termycontent">
+            <article id="termy-editor" contenteditable>
+                <p> This is **regular** text </p>
+                <p> *with some Markdown* </p>
+                <p> $ lines with dollar are coloured </p>
+            </article>
+
+            <article id="termy-output"> </article>
+        </div>
+        <script src="termy.js"></script>
+    </body>
+</html>
