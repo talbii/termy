@@ -1,4 +1,4 @@
-/* markdownize(s) does simple asterik replacement, according to Markdown rules, i.e.,:
+/* markdownize(s) does simple astersik replacement, according to Markdown rules, i.e.,:
  *  **x** => <b> x </b>
  *  *x*   => <em> x </em>
  * 
